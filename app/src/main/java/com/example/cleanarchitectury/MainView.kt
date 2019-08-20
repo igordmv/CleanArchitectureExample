@@ -1,4 +1,5 @@
 package com.example.cleanarchitectury
 
-interface MainView {
+internal interface MainView {
+    fun doSomethingWhenButtonClicked()
 }
