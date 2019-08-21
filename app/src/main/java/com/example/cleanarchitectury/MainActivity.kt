@@ -12,6 +12,16 @@ import android.widget.ArrayAdapter
 
 
 class MainActivity : AppCompatActivity(), MainView {
+    override fun deleteUsersFromListView() {
+        val namelist = ArrayList<String>()
+        val adapter = ArrayAdapter<String>(
+            this,
+            android.R.layout.simple_list_item_1, android.R.id.text1, namelist
+        )
+        userList.adapter = adapter
+    }
+
+
     override fun showUsers(users: List<User>) {
         val namelist = ArrayList<String>()
         users.forEach {namelist.add(it.firstName + " " + it.lastName)}
@@ -22,11 +32,24 @@ class MainActivity : AppCompatActivity(), MainView {
         userList.adapter = adapter
     }
 
-    override fun showAddedUserToast() {
+    override fun showAddedUserToast(firstName : String, lastName : String) {
+        val namelist = ArrayList<String>()
+        if(userList.adapter != null) {
+            for (i in 0 until userList.adapter.getCount()) {
+                namelist.add(userList.adapter.getItem(i) as String)
+            }
+        }
+        namelist.add("$firstName $lastName")
         Log.i(TAG,"User added, showing Toast")
         Toast.makeText(this, "User added",
             Toast.LENGTH_LONG
         ).show()
+
+        val adapter = ArrayAdapter<String>(
+            this,
+            android.R.layout.simple_list_item_1, android.R.id.text1, namelist
+        )
+        userList.adapter = adapter
 
     }
 
@@ -48,6 +71,11 @@ class MainActivity : AppCompatActivity(), MainView {
         btnGetAll.setOnClickListener{
             Log.i(TAG,"btnGetAll Button clicked")
             controller.onGetAllUsersClicked()
+        }
+
+        btnDeleteAll.setOnClickListener{
+            Log.i(TAG,"btnDeleteAll Button clicked")
+            controller.onDeleteAllUsersClicked()
         }
 
     }

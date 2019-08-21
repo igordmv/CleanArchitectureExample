@@ -1,5 +1,6 @@
 package com.example.cleanarchitectury
 
+import com.example.cleanarchitectury.users.deleteall.UserDeleter
 import com.example.cleanarchitectury.users.getall.UserGetter
 import com.example.cleanarchitectury.users.save.UserSaver
 import com.example.cleanarchitectury.users.repository.UserRepositoryAccess
@@ -19,6 +20,8 @@ internal class MainInjection(activity: MainActivity?) {
 
         val userGetter = UserGetter(repositoryAccess)
 
-        return MainController(mainActivity, userSave, userGetter)
+        val userDeleter = UserDeleter(repositoryAccess)
+
+        return MainController(mainActivity, userSave, userGetter, userDeleter)
     }
 }

@@ -5,6 +5,9 @@ import com.example.cleanarchitectury.users.UserRepository
 import com.example.database.UsersDB
 
 class UserRepositoryAccess(private val userDB : UsersDB) : UserRepository {
+    override fun deleteAll() {
+        userDB.deleteAll()
+    }
 
     override fun getAll(): List<User> {
         val userDBList : List<com.example.database.User>  = userDB.getAll()

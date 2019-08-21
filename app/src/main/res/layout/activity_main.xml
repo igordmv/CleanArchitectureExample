@@ -53,6 +53,16 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/btnDeleteAll"
+        android:text="Delete all users"
+        android:textColor="#FFF"
+        android:padding="20sp"
+        android:background="#397bb2"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
         android:id="@+id/btnGetAll"
         android:text="Get all users"
         android:textColor="#FFF"

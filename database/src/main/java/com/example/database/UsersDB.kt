@@ -54,6 +54,11 @@ class UsersDB(context: Context) :
     }
 
 
+    fun deleteAll(){
+        val db = readableDatabase
+        val ERASE_TABLE = "DELETE FROM $TABLE_NAME"
+        db?.execSQL(ERASE_TABLE)
+    }
 
     companion object {
         private val DB_NAME = "UsersDB"
