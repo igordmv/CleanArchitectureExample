@@ -10,30 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78075635-49d1-49fb-8a45-81684a6f7ec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nhaarman_mockito_kotlin_1_6_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_8_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_0_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_18_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/getall/UserGetterTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/save/UserSaverTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/deleteall/UserDeleterTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -66,20 +44,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/MainController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="435">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="46" />
               <folding>
                 <element signature="e#39#257#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/users/deleteall/UserDeleter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,13 +74,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/save/UserSaverTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="e#50#332#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/deleteall/UserDeleterTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+              <folding>
+                <element signature="e#55#416#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,18 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/users/save/UserSaver.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#50#155#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -205,6 +174,8 @@
         <option value="$PROJECT_DIR$/app/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/getall/UserGetterTest.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/save/UserSaverTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/deleteall.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/deleteall/UserDeleterTest.kt" />
       </list>
     </option>
   </component>
@@ -337,6 +308,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="deleteall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CleanArchitectury" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CleanArchitectureExample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
               <item name="getall" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -348,23 +329,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
               <item name="save" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CleanArchitectury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CleanArchitectureExample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CleanArchitectury" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CleanArchitectureExample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mockito-extensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CleanArchitectury" type="b2602c69:ProjectViewProjectNode" />
@@ -440,18 +404,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.UserSaverTest.test when addUser clicked on not working save then should do nothing">
-    <configuration name="UserGetterTest.test if userGetter is being correctly called when controller is invoked" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Android JUnit.UserDeleterTest.test when addUser clicked on working save then this user and showAddedUser at view">
+    <configuration name="UserDeleterTest.test when addUser clicked on working save then this user and showAddedUser at view" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.cleanarchitectury.users.getall.*" />
+          <option name="PATTERN" value="com.example.cleanarchitectury.users.deleteall.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.cleanarchitectury.users.getall" />
-      <option name="MAIN_CLASS_NAME" value="com.example.cleanarchitectury.users.getall.UserGetterTest" />
-      <option name="METHOD_NAME" value="test if userGetter is being correctly called when controller is invoked" />
+      <option name="PACKAGE_NAME" value="com.example.cleanarchitectury.users.deleteall" />
+      <option name="MAIN_CLASS_NAME" value="com.example.cleanarchitectury.users.deleteall.UserDeleterTest" />
+      <option name="METHOD_NAME" value="test when addUser clicked on working save then this user and showAddedUser at view" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -587,11 +551,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.UserSaverTest.test when addUser clicked on not working save then should do nothing" />
+        <item itemvalue="Android JUnit.UserDeleterTest.test when addUser clicked on working save then this user and showAddedUser at view" />
         <item itemvalue="Android JUnit.UserSaverTest" />
+        <item itemvalue="Android JUnit.UserSaverTest.test when addUser clicked on not working save then should do nothing" />
         <item itemvalue="Android JUnit.UserSaverTest.test when addUser clicked expect save this user and showAddedUser at view" />
         <item itemvalue="Android JUnit.UserGetterTest.test when getAll clicked expect get users and show at view" />
-        <item itemvalue="Android JUnit.UserGetterTest.test if userGetter is being correctly called when controller is invoked" />
       </list>
     </recent_temporary>
   </component>
@@ -609,15 +573,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserGetterTest__test_ - 2019.08.21 at 16h 10m 31s.xml">
-      <configuration name="UserGetterTest. test " configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="UserGetterTest__test_ - 2019.08.21 at 16h 12m 59s.xml">
-      <configuration name="UserGetterTest. test " configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="UserGetterTest__test_ - 2019.08.21 at 16h 13m 42s.xml">
-      <configuration name="UserGetterTest. test " configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="UserGetterTest__test_ - 2019.08.21 at 16h 13m 53s.xml">
       <configuration name="UserGetterTest. test " configurationId="AndroidJUnit" />
     </history-entry>
@@ -638,6 +593,15 @@
     </history-entry>
     <history-entry file="UserSaverTest_test_when_addUser_clicked_on_not_working_save_then_should_do_nothing - 2019.08.21 at 16h 24m 45s.xml">
       <configuration name="UserSaverTest.test when addUser clicked on not working save then should do nothing" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="UserSaverTest_test_when_addUser_clicked_on_not_working_save_then_should_do_nothing - 2019.08.21 at 16h 25m 07s.xml">
+      <configuration name="UserSaverTest.test when addUser clicked on not working save then should do nothing" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="UserSaverTest - 2019.08.21 at 16h 25m 12s.xml">
+      <configuration name="UserSaverTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="UserDeleterTest_test_when_addUser_clicked_on_working_save_then_this_user_and_showAddedUser_at_view - 2019.08.21 at 16h 28m 46s.xml">
+      <configuration name="UserDeleterTest.test when addUser clicked on working save then this user and showAddedUser at view" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -855,23 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/users/User.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/users/save/UserSaver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#50#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/users/getall/UserGetter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -879,13 +826,6 @@
           <folding>
             <element signature="e#52#157#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/users/deleteall/UserDeleter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -906,22 +846,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/MainController.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/users/save/UserSaver.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
-            <element signature="e#39#257#0" expanded="true" />
+            <element signature="e#50#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/users/User.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/deleteall.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#45#515#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/save/UserSaverTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#50#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/users/deleteall/UserDeleter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/cleanarchitectury/MainController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="e#39#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/cleanarchitectury/users/deleteall/UserDeleterTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="e#55#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
