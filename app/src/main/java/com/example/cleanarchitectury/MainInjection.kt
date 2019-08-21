@@ -1,7 +1,8 @@
 package com.example.cleanarchitectury
 
-import com.example.cleanarchitectury.save.UserSaver
-import com.example.cleanarchitectury.save.repository.UserRepositoryAccess
+import com.example.cleanarchitectury.users.getall.UserGetter
+import com.example.cleanarchitectury.users.save.UserSaver
+import com.example.cleanarchitectury.users.repository.UserRepositoryAccess
 import com.example.database.UsersDB
 import java.lang.ref.WeakReference
 
@@ -12,8 +13,12 @@ internal class MainInjection(activity: MainActivity?) {
     fun make(): MainController {
         val mainActivity = activityRef.get()
 
-        val userSave = UserSaver( UserRepositoryAccess( UsersDB(mainActivity!!)))
+        val repositoryAccess = UserRepositoryAccess( UsersDB(mainActivity!!))
 
-        return MainController(mainActivity, userSave)
+        val userSave = UserSaver(repositoryAccess)
+
+        val userGetter = UserGetter(repositoryAccess)
+
+        return MainController(mainActivity, userSave, userGetter)
     }
 }

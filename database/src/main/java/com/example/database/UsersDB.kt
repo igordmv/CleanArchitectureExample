@@ -33,8 +33,8 @@ class UsersDB(context: Context) :
     }
 
 
-    fun getAll(): String {
-        var allUser: String = "";
+    fun getAll(): List<User> {
+        var allUser = ArrayList<User>()
         val db = readableDatabase
         val selectALLQuery = "SELECT * FROM $TABLE_NAME"
         val cursor = db.rawQuery(selectALLQuery, null)
@@ -44,8 +44,7 @@ class UsersDB(context: Context) :
                     var id = cursor.getString(cursor.getColumnIndex(ID))
                     var firstName = cursor.getString(cursor.getColumnIndex(FIRST_NAME))
                     var lastName = cursor.getString(cursor.getColumnIndex(LAST_NAME))
-
-                    allUser = "$allUser\n$id $firstName $lastName"
+                    allUser.add(User(id, firstName, lastName))
                 } while (cursor.moveToNext())
             }
         }
