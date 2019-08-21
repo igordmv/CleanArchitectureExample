@@ -18,7 +18,7 @@ class UserDeleterTest {
     private val subject = MainController(view,userSaver,userGetter,userDeleter)
 
     @Test
-    fun `test when addUser clicked on working save then this user and showAddedUser at view`(){
+    fun `test when deleteAll clicked then should deleteAll and update view`(){
         subject.onDeleteAllUsersClicked()
         verify(userDeleter, times(1)).deleteAll()
         verify(view, times(1)).deleteUsersFromListView()
