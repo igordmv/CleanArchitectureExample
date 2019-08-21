@@ -10,7 +10,7 @@ internal class MainController(view: MainView?,
                                                                 ) {
                               private val viewRef = WeakReference(view)
 
-    fun onAddUserClicked(firstName : String = "Igor", lastName : String = "Vieira"){
+    fun onAddUserClicked(firstName : String , lastName : String ){
         val saved = userSaver.save(firstName,lastName)
 
         when{
@@ -19,6 +19,7 @@ internal class MainController(view: MainView?,
     }
 
     fun onGetAllUsersClicked(){
-       val users =  userGetter.getAll()
+        val users =  userGetter.getAll()
+        viewRef.get()?.showUsers(users)
     }
 }
